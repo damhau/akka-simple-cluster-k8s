@@ -19,7 +19,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name:  akka-simple-cluster
-  namespace: default
+  namespace: simple-cluster
 roleRef:
   kind: ClusterRole
   name: akka-simple-cluster
