@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: akka-simple-cluster
+  namespace: simple-cluster
 spec:
   type: NodePort
   selector:
