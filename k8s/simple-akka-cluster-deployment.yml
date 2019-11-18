@@ -4,7 +4,7 @@ metadata:
   name: simple-cluster
   namespace: simple-cluster
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: akka-simple-cluster
