@@ -24,6 +24,8 @@ spec:
         imagePullPolicy: IfNotPresent
         name: akka-simple-cluster
         env:
+          - name: K8S_NAMESPACE
+            value: simple-cluster
           - name: HOSTNAME
             valueFrom:
               fieldRef:
